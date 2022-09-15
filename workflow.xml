@@ -1,0 +1,19 @@
+<tool id='placeholder_id' name='placeholder_name'>
+  <command interpreter='bash'>main.sh</command>
+  <inputs>
+    <section name='section1' type='section' conditional='[object Object],[object Object]' title='Section 1' expanded='true'>
+      <param name='test_str' label='Test string parameter' type='text' help='Use this field to enter a string as input to a workflow.' value='This is a test string' width='50%_none'>
+      </param>
+      <param name='test_int' label='Test integer parameter' type='integer' min='8888' max='65000' value='8888' width='50%' help='Use this field to enter an integer as input to a workflow.'>
+      </param>
+    </section>
+    <section name='section2' type='section' title='Section 2: An example for how to divide a workflow form into sections' expanded='false'>
+      <param name='test_bool' type='boolean' truevalue='Yes' falsevalue='No' checked='false' label='Toggle example' help='Use this toggle to send two different strings as input to a workflow.' width='50%_none' optional='true' float='right'>
+      </param>
+      <param name='test_str_autofill' label='Strings can also be autocompleted with special variables' type='text' value='/contrib/\${USER}/start_jupyterlab' help='${USER} is replaced with the username in the workflow inputs.' width='50%_none'>
+      </param>
+    </section>
+  </inputs>
+  <outputs>
+  </outputs>
+</tool>
