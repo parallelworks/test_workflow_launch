@@ -8,9 +8,15 @@
       </param>
     </section>
     <section name='section2' type='section' title='Section 2: An example for how to divide a workflow form into sections' expanded='false'>
+      <param name='test_float' label='Test float parameter' type='float' value='0.1' width='30%'>
+      </param>
       <param name='test_bool' type='boolean' truevalue='Yes' falsevalue='No' checked='false' label='Toggle example' help='Use this toggle to send two different strings as input to a workflow.' width='50%_none' optional='true' float='right'>
       </param>
       <param name='test_str_autofill' label='Strings can also be autocompleted with special variables' type='text' value='/contrib/\${USER}/start_jupyterlab' help='${USER} is replaced with the username in the workflow inputs.' width='50%_none'>
+      </param>
+      <param name='test_float_range' label='Define ranges of floats' type='text' value='0.01:0.03:0.01' width='50%' help='Whitespace delimited or range/step (e.g. min:max:step)' argument='input'>
+      </param>
+      <param name='test_int_range' label='Define ranges of integers' type='text' value='5:15:5' width='50%' help='Whitespace delimited or range/step (e.g. min:max:step)' argument='input'>
       </param>
     </section>
   </inputs>
