@@ -18,6 +18,11 @@
       </param>
       <param name='test_int_range' label='Define ranges of integers' type='text' value='5:15:5' width='50%' help='Whitespace delimited or range/step (e.g. min:max:step)' argument='input'>
       </param>
+      <param name='test_select' type='select' label='Example of selection from list' width='50%_none' optional='false' multiple='true'>
+	<option value="Option in list 1" selected="true">opt01</option>
+	<option value="Option in list 2" >opt02</option>
+	<option value="Option in list 3" >opt03</option>
+      </param>
     </section>
   </inputs>
   <outputs>
