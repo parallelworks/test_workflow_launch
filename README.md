@@ -2,7 +2,6 @@
 Test launch of a PW workflow.  All execution is local - no jobs are sent to remote resources.
 
 ## Tips (add more here)
-## Heading 1 
 
 1. 'integer' not 'int'
 2. 'floats' must have 'values'
