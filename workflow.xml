@@ -23,8 +23,11 @@
 	<option value="Option in list 2" >opt02</option>
 	<option value="Option in list 3" >opt03</option>
       </param>
+      <param name='api-list-resources' type='computeResource' label='Auto-general list of compute resources' width='50%_none'>
+      </param>
     </section>
   </inputs>
   <outputs>
   </outputs>
 </tool>
+
